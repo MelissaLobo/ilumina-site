@@ -1,0 +1,44 @@
+	<div class="row">
+					<div class="col-md-6">
+						<h3>Luxo como padrão</h3>
+						<p>Todos os itens de luxo incluídos na taxa de reserva, padrão.</p>
+					</div>
+					<div class="col-md-6">
+						<ul>
+							<li><i class="fa fa-shower" aria-hidden="true"></i>
+								Chuveiro privado e totalmente aquecido</li>						
+							
+							<li><i class="fa fa-bed" aria-hidden="true"></i>
+								Roupas de cama macias premium
+							</li>				
+							<li><i class="fa fa-fire" aria-hidden="true"></i>
+								Fogueira</li>
+							<li><i class="fa fa-wifi" aria-hidden="true"></i>
+								Wi-fi</li>
+							<li><img src="https://assets.website-files.com/5fef6a889c74e6e3de6775c5/5ff0c9e84ac6787644611d6a_icons8_hammock.svg" loading="lazy" alt="" class="featured-icon">Redes</li>	
+							<li><img src="https://assets.website-files.com/5fef6a889c74e6e3de6775c5/5ff0d1249c74e629b26ac1bd_icons8_bathrobe.svg" loading="lazy" alt="" class="featured-icon">Roupões de banho</li>
+							<li><img src="https://assets.website-files.com/5fef6a889c74e6e3de6775c5/5ff0c9284ac6785be9611447_icons8_towel.svg" loading="lazy" alt="" class="featured-icon">Toalhas macias premium</li>
+							<li><img src="https://assets.website-files.com/5fef6a889c74e6e3de6775c5/5ff0d11bb640932677c58ff3_icons8_slippers.svg" loading="lazy" alt="" class="featured-icon">Chinelos</li>		
+						</ul>						
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Pequenos extras</h3>
+						<p>Interessado em adicionar esses extras à sua estadia? Informe-nos no formulário de reserva.</p>
+					</div>
+					<div class="col-md-6">
+						<ul>
+							<li><img src="https://assets.website-files.com/5fef6a889c74e6e3de6775c5/5ff0d0a109b0135add80dbd6_icons8_champagne.svg" loading="lazy" alt="" class="featured-icon">Champanhe na chegada</li>
+							<li><img src="https://assets.website-files.com/5fef6a889c74e6e3de6775c5/5ff0d372d62f1629b949a3ed_icons8_spa.svg" loading="lazy" alt="" class="featured-icon">Dias de spa</li>
+							<li><i class="fa fa-glass" aria-hidden="true"></i>
+								Vinho no quarto</li>
+							<li><i class="fa fa-cutlery" aria-hidden="true"></i>
+								Jantar romantico</li>		
+							<li><i class="fa fa-birthday-cake" aria-hidden="true"></i>
+								Bolo de aniversário</li>
+							<li><i class="fa fa-coffee" aria-hidden="true"></i>
+								Café da manhã servido no quarto</li>															
+						</ul>						
+					</div>
+				</div>
