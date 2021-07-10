@@ -160,7 +160,7 @@ a, a:hover, a:active {
 }
 
 .navbar-custom a {
-	color: #f3f5f0;
+	color: #fff;
 }
 
 .navbar-custom .nav li a {
@@ -469,7 +469,7 @@ ul.banner-social-buttons {
 	border-radius: 2%;
 }
 #pousada .intro-section .negrito-verde{
-	color: #869d53;
+	color: #64753f;
 }
 #pousada .intro-section .logo-about{
 	padding: 60px 0;
@@ -494,7 +494,7 @@ ul.banner-social-buttons {
 }
 .acomodacoes-section h3{
     margin-bottom: 20px;
-    color: #8e78bd;
+    color: #7f6ba8;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -639,7 +639,7 @@ ul.banner-social-buttons {
 }
 p.description {
     font-size: 16px;
-    color: #777;
+    color: #757575;
 	text-align: center;
 }
 .small-text {
@@ -684,7 +684,7 @@ p.description {
 }
   #servicos .feature-block h3 {
 	margin-bottom: 20px;
-	color: #8e78bd;
+	color: #765eae;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -739,7 +739,7 @@ p.description {
   }
   #atividades .feature-block h3 {
 	margin-bottom: 20px;
-	color: #8e78bd;
+	color: #7a67a2;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 2px;
