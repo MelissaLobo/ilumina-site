@@ -78,3 +78,19 @@ $(window).scroll(collapseNavbar), $(document).ready(collapseNavbar),
 		}), $(".navbar-collapse ul li a").click(function() {
 			$(this).closest(".collapse").collapse("toggle")
 		});
+
+$(document).ready(function() {
+    $('#Carousel').carousel({
+        interval: 5000
+    })
+});
+$(document).ready(function() {
+    $('#CarouselFamily').carousel({
+        interval: 5000
+    })
+});
+$(document).ready(function() {
+    $('#CarouselSuite').carousel({
+        interval: 5000
+    })
+});

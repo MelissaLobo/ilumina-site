@@ -64,13 +64,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-						<h1 class="brand-heading">
-							<img src="img/logo_branco.png">
+						<div class="brand-heading">
+							<img src="img/logo_branco.png" alt="logo Pousada Ilumina">
 							
-						</h1>
+						</div>
 						<h1 class="brand-heading">Bem vindo a São Francisco Xavier</h1>
 						<p class="intro-text">sinta-se em casa longe de casa.</p>
-						<a href="#pousada" class="btn btn-circle page-scroll"> <i
+						<a href="#pousada" class="btn btn-circle page-scroll" aria-label="page-scroll"> <i
 							class="fa fa-angle-double-down animated"></i>
 						</a>
 					</div>
@@ -195,47 +195,96 @@
 		  </div>
 		</div>
 	  </section>
+
 	<!--Acomodacoes -->
 	<section id="acomodacoes" class="main">
 		<div class="acomodacoes-section">
 			<div class="container">
 				<h2>Acomodações</h2>				
 				<div class="row">
-					<a class="opacity-text" href="/suite" alt="Suíte Simples" target="_blank" aria-label="Suíte Simples">
-						<div class="col-md-4" clickable="true" data="/" style="cursor: pointer;">
-							<div class="card card-member">
-								<div class="content">
-									<h3>Suíte</h3>
-									<p class="description">Funcional e confortável. Sente-se e desfrute de uma das nossas suítes. Completa com vista para o pátio, decoração elegante e luz natural, nossa suíte é a combinação perfeita de simplicidade e conforto. Ideal para quem viaja a negócios ou lazer.</p>
-						</div>
-							<img alt="..." class="img" src="img/intro.jpg">
-						</div>
-					</div>
-					</a>
-					<a class="opacity-text" href="/familia" alt="Suíte Familia" target="_blank" aria-label="Suíte Familia"></a>
-						<div class="col-md-4" clickable="true" data="/" style="cursor: pointer;">
-							<div class="card card-member">
-								<img alt="..." class="img" src="img/intro.jpg">
-								<div class="content">
-									<h3>Familia</h3>
-									<p class="description">Para toda a familia. Completa com vista para o pátio, decoração elegante e luz natural, nossa suíte é a combinação perfeita de simplicidade e conforto. A suíte familia acomoda até quatro pessoas, é a opção perfeita para quem está procurando relaxar com a familia. </p>
-								</div>
-							</div>
-						</div>
-					</a>	
-					<a class="opacity-text" href="/master" alt="Suíte Master" target="_blank" aria-label="Suíte Master">
-						<div class="col-md-4" clickable="true" data="/" style="cursor: pointer;">
+						<div class="col-md-4">
 							<div class="card card-member">
 								<div class="content">
 									<h3>Suíte Master</h3>
-									<p class="description">Luxo acessível. Nossas suítes master é a opção perfeita se você está procurando um pouco mais de luxo. As suítes Master oferecem o espaço extra de que você precisa para se espalhar e desfrutar das vistas deslumbrantes das montanhas.</p>
+									<p class="description">Luxo acessível. Nossas suítes master é a opção perfeita se você está procurando um pouco mais de luxo. As suítes Master oferecem lareira, banheiro privativo, varanda e vistas deslumbrantes das montanhas.
+										</p>
 								</div>
-								<img alt="..." class="img" src="img/intro.jpg">
+
+								<div id="Carousel" class="carousel slide">
+									<ol class="carousel-indicators">
+										<li data-target="#Carousel" data-slide-to="0" class="active"></li>
+										<li data-target="#Carousel" data-slide-to="1"></li>
+										<li data-target="#Carousel" data-slide-to="2"></li>
+										<li data-target="#Carousel" data-slide-to="3"></li>
+										<li data-target="#Carousel" data-slide-to="4"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="item active">
+											<a href="#" class="card"><img src="img/quarto/quarto.jpg" alt="Image"></a>
+										</div><!--.item-->
+										<div class="item">
+											<a href="#" class="card"><img src="img/quarto/vistacama.jpg" alt="Image"></a>
+										</div><!--.item-->
+										<div class="item">
+											<a href="#" class="card"><img src="img/quarto/lareira.jpg" alt="Image"></a>
+										</div><!--.item-->
+										<div class="item">
+											<a href="#" class="card"><img src="img/quarto/vista.jpg" alt="Image"></a>
+										</div><!--.item-->
+										<div class="item">
+											<a href="#" class="card"><img src="img/quarto/quartoum.jpg" alt="Image"></a>
+										</div><!--.item-->
+									</div><!--.Carousel-->
+								</div>
 							</div>
 						</div>
-					</a>
-				</div>	
-							
+
+						<div class="col-md-4" >
+							<div class="card card-member">
+								<div id="CarouselFamily" class="carousel slide">
+									<ol class="carousel-indicators">
+										<li data-target="#CarouselFamily" data-slide-to="0" class="active"></li>
+										<li data-target="#CarouselFamily" data-slide-to="1"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="item active">
+											<a href="#" class="card"><img src="img/quarto/detalhes.jpg" alt="Image"></a>
+										</div><!--.item-->
+										<div class="item">
+											<a href="#" class="card"><img src="img/quarto/agua.jpg" alt="Image"></a>
+										</div><!--.item-->
+									</div><!--.Carousel-->
+								</div>
+								<div class="content">
+									<h3>Familia</h3>
+									<p class="description">Para toda a familia. Completa com vista para o pátio e luz natural, nossa suíte é a combinação perfeita de simplicidade e conforto. A suíte familia acomoda até quatro pessoas, é a opção perfeita para quem está procurando relaxar com a familia. </p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="card card-member">
+								<div class="content">
+									<h3>Suíte </h3>
+									<p class="description">Funcional e confortável. Sente-se e desfrute de uma das nossas suítes. Completa com vista para o jardim, decoração elegante e luz natural, nossa suíte é a combinação perfeita de simplicidade e conforto. Ideal para quem viaja a negócios ou lazer.</p>
+								</div>
+								<div id="CarouselSuite" class="carousel slide">
+									<ol class="carousel-indicators">
+										<li data-target="#CarouselSuite" data-slide-to="0" class="active"></li>
+										<li data-target="#CarouselSuite" data-slide-to="1"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="item active">
+											<a href="/ilumina-site/img/quarto/flor.jpg" class="card" target="_blank"><img src="img/quarto/flor.jpg" alt="Image"></a>
+										</div><!--.item-->
+										<div class="item">
+											<a href="/ilumina-site/img/quarto/vinho.jpg" class="card" target="_blank"><img src="img/quarto/vinho.jpg" alt="Image"></a>
+										</div><!--.item-->
+									</div><!--.Carousel-->
+								</div>
+							</div>
+						</div>
+				</div>
 			
 			</div>	
 		</div>
@@ -387,94 +436,57 @@
 -->
 <!--   Contato -->
     <section class="contact-section" id="contact"> 
-			<div class="container">
+		<div class="container">
 			<div class="col-lg-12 text-center">
 				<h2>Contato</h2>
 				<p class="contact text-center">Entre em contato conosco para tirar suas dúvidas ou fazer sua reserva.</p>
 			</div>
-			<!-- 
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<form name="sentMessage" id="contactForm" novalidate method="post">
-						<div class="row">
-							<div class="col-md-6">
-							
-								<div class="form-group">
-									<input type="text" class="form-control"
-									placeholder="Seu nome *" id="name" name="from_name">
-									<p class="help-block text-danger"></p>
-								</div>
-								<div class="form-group">
-									<input type="email" class="form-control" 
-									placeholder="Seu Email *" id="email" name="reply_to">
-									<p class="help-block text-danger"></p>
-								</div>
-								
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<textarea class="form-control" placeholder="Sua mensagem *"
-									id="message" name="message_html"></textarea>
-									<p class="help-block text-danger"></p>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-							<div class="col-lg-12 text-center">
-								<div id="success"></div>
-								<button type="submit" class="btn btn-default btn-lg">Enviar</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>-->
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 mb-4 mb-md-0">
-					<div class="card py-4 h-100">
-						<a class="opacity-text" data-auto-recognition="true" href="mailto:pousadailumina@gmail.com" alt="Email Pousada Ilumina" target="_blank" aria-label="E-mail">
-							<div class="card-body text-center" clickable="true" data="/" style="cursor: pointer;">
-								<i class="fa fa-envelope-o" aria-hidden="true"></i>
-								<h3>Email</h3>
-								<hr class="my-4">
-								<p class="small text-black-50">pousadailumina@gmail.com</p>
-							</div>
-						</a>
-					</div>
-					<div class="card py-4 h-100">
-						<a class="opacity-text" href="#" alt="Telefone Pousada Ilumina" target="_blank" aria-label="Telefone">
-							<div class="card-body text-center" clickable="true" data="/" style="cursor: pointer;">
-								<i class="fa fa-phone" aria-hidden="true"></i>
-								<h3>Telefone</h3>
-								<hr class="my-4">
-								<p class="small text-black-50">+55 (11) 1234 4321</p>
-							</div>
-						</a>
-					</div>
-					<div class="card py-4 h-100">
-						<a class="opacity-text" href="https://goo.gl/maps/Q3rjWMY1jhyR3Lqx6" alt="Endereço Pousada Ilumina" target="_blank" aria-label="Google Maps">
-							<div class="card-body text-center clickable="true" data="/" style="cursor: pointer;">
-									<i class="fa fa-map-marker" aria-hidden="true"></i>
-									<h3>Endereço</h3>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 mb-4 mb-md-0">
+						<div class="card py-4 h-100">
+							<a class="opacity-text" data-auto-recognition="true" href="mailto:pousadailumina@gmail.com" alt="Email Pousada Ilumina" target="_blank" aria-label="E-mail">
+								<div class="card-body text-center" clickable="true" data="/" style="cursor: pointer;">
+									<i class="fa fa-envelope-o" aria-hidden="true"></i>
+									<h3>Email</h3>
 									<hr class="my-4">
-									<p class="small text-black-50">Estrada do Saboya, 100, São Franscisco Xavier - SP, 12249-000</p>								
-							</div>
-						</a>
+									<p class="small text-black-50">pousadailumina@gmail.com</p>
+								</div>
+							</a>
+						</div>
+						<div class="card py-4 h-100">
+							<a class="opacity-text" href="#" alt="Telefone Pousada Ilumina" target="_blank" aria-label="Telefone">
+								<div class="card-body text-center" clickable="true" data="/" style="cursor: pointer;">
+									<i class="fa fa-phone" aria-hidden="true"></i>
+									<h3>WhatsApp</h3>
+									<hr class="my-4">
+									<p class="small text-black-50">+55 (12) 99717 1745</p>
+								</div>
+							</a>
+						</div>
+						<div class="card py-4 h-100">
+							<a class="opacity-text" href="https://goo.gl/maps/Q3rjWMY1jhyR3Lqx6" alt="Endereço Pousada Ilumina" target="_blank" aria-label="Google Maps">
+								<div class="card-body text-center" clickable="true" data="/" style="cursor: pointer">
+										<i class="fa fa-map-marker" aria-hidden="true"></i>
+										<h3>Endereço</h3>
+										<hr class="my-4">
+										<p class="small text-black-50">Estrada do Saboya, 100, São Franscisco Xavier - SP, 12249-000</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 mb-4 mb-md-0 map">
+						<iframe aria-hidden="true" frameborder="0" tabindex="-1"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.9631122819305!2d-45.9604657490393!3d-22.914731384934182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc150816da46b9%3A0x9c51b3d4c40c6500!2sPousada%20Ilumina!5e0!3m2!1spt-BR!2sbr!4v1616976622265!5m2!1spt-BR!2sbr" width="500" height="560" style="border:0;
+						border-radius: 1%;" allowfullscreen="" loading="lazy"></iframe>
+
 					</div>
 				</div>
-				<div class="col-md-6 mb-4 mb-md-0 map">
-					<iframe aria-hidden="true" frameborder="0" tabindex="-1"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.9631122819305!2d-45.9604657490393!3d-22.914731384934182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc150816da46b9%3A0x9c51b3d4c40c6500!2sPousada%20Ilumina!5e0!3m2!1spt-BR!2sbr!4v1616976622265!5m2!1spt-BR!2sbr" width="500" height="560" style="border:0;
-					border-radius: 1%;" allowfullscreen="" loading="lazy"></iframe>
-							
-				
-				</div>
-								
 			</div>
-		</div>
-		<div class="container text-center">
+			<div class="container text-center">
 			<ul class="list-inline social-buttons">
 				<li>
-					<a href="https://www.tripadvisor.com.br/pousadailumina" target="_blank" aria-label="Tripadvisor"> 
+					<a href="https://www.tripadvisor.com.br/Hotel_Review-g3175968-d23511437-Reviews-Pousada_Ilumina-Sao_Francisco_Xavier_State_of_Sao_Paulo.html" target="_blank" aria-label="Tripadvisor">
 						<i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
 				</li>
 				<li>
@@ -492,6 +504,7 @@
 				
 			</ul>
 		</div>
+		</div>
     </section>
     <!-- Rodapé -->
     <footer>
@@ -505,6 +518,7 @@
     <!-- jQuery -->
     <script src="jquery/jquery.js"></script>
 
+	<script	src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
