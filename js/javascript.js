@@ -86,11 +86,11 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     $('#CarouselFamily').carousel({
-        interval: 5000
+        interval: 5300
     })
 });
 $(document).ready(function() {
     $('#CarouselSuite').carousel({
-        interval: 5000
+        interval: 5500
     })
 });
